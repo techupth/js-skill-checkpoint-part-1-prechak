@@ -8,9 +8,21 @@ const myTodo = [
 // เริ่มเขียนโค้ดตรงนี้
 
 // 1 ใช้คำสั่งเพิ่มค่าใน Object
+myTodo.push({ id: 5, todo: "Walk the dog" });
 
-// 2 Reassign id 4
+// 2 Reassign id 4 loop ?
+function update(id, newTodoValue) {
+  for (let i = 0; i < myTodo.length; i++) {
+    if (myTodo[i].id === id) {
+      myTodo[i].todo = newTodoValue;
+    }
+  }
+}
+
+update(4, "Go to the gym");
 
 // 3 ลบ Walk the dog ทิ้ง
+myTodo.pop();
 
 // 4 log ออกมา
+console.log(myTodo);
