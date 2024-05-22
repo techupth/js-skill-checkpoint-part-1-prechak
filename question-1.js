@@ -6,3 +6,11 @@ const myTodo = [
   { id: 4, todo: "Wash dishes" },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+
+// 1 ใช้คำสั่งเพิ่มค่าใน Object
+
+// 2 Reassign id 4
+
+// 3 ลบ Walk the dog ทิ้ง
+
+// 4 log ออกมา
