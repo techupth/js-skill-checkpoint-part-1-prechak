@@ -25,4 +25,4 @@ update(4, "Go to the gym");
 myTodo.pop();
 
 // 4 log ออกมา
-console.log(myTodo);
+console.log(myTodo[myTodo.length - 1]);
