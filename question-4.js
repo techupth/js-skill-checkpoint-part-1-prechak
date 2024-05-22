@@ -9,7 +9,7 @@ function findMin() {
   let min = Infinity;
   let minName = "";
   for (let i = 0; i < inventory.length; i++) {
-    if (inventory[i].name && inventory[i].quantity < min) {
+    if (inventory[i].quantity < min) {
       min = inventory[i].quantity;
       minName = inventory[i].name;
     }
